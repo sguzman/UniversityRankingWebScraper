@@ -22,7 +22,8 @@ resolvers ++= Seq(
 /** Source Dependencies */
 libraryDependencies ++= Seq(
   "com.mashape.unirest" % "unirest-java" % "1.4.9",
-  "com.lihaoyi" % "upickle_2.12" % "0.4.4"
+  "org.jsoup" % "jsoup" % "1.10.2",
+  "com.github.melrief" % "purecsv_2.12" % "0.0.9"
 )
 
 /** Make sure to fork on run */
